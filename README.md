@@ -3,7 +3,7 @@ Projekt Api:
 URL:
 https://cvhwjixofzvhcsllznri.supabase.co
 
-anon public:
+anon public (key):
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImN2aHdqaXhvZnp2aGNzbGx6bnJpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjQyMzczOTQsImV4cCI6MjA3OTgxMzM5NH0.gWLYibaWct3bzJ67YKg2WmTd4AMfdGeyoRJavxv7CTE
 
 Samlet URL:
