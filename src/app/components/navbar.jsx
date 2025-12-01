@@ -9,7 +9,7 @@ export default function Navbar() {
 
                 /* padding til alle børn undtagen det første */
                 [&>*:not(:first-child)]:px-4
-                [&>*:not(:first-child)]:py-2
+                [&>*:not(:first-child)]:py-1
 
                 /* Hover-styles */
                 [&>*:not(:first-child):hover]:text-white
