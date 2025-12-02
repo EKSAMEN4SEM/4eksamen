@@ -3,7 +3,7 @@ import Glasscard from "../components/glasscard";
 export default async function Branchecard () {
     return (
     <>
-    <div className="grid grid-cols-3 justify-between gap-4 w-(--content-size) m-auto">
+    <div className="grid grid-cols-3 justify-between gap-4 w-(--content-size) py-(--content-padding) m-auto">
     <Glasscard
     width="full"
     tekst="Byggeriet står for 35 procent af al affald, og sammen med produktionen af  byggematerialer udgør det 10-15 procent af Danmarks CO2-udledning.

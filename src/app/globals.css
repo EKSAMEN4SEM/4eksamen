@@ -16,7 +16,7 @@
 
   /* Content størrelse */
   --content-size: 75%;
-  --content-padding: 2rem;
+  --content-padding: 5rem;
 }
 
 @layer utilities {
