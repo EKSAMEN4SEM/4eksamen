@@ -1,12 +1,12 @@
 import Button from './button'
 
-export default function Glass({ overskrift, tekst, pris, img, width = "w-3/5" }) {
+export default function Glass({ overskrift, tekst, pris, img, width = "w-3/5", textSize = "text-xl" }) {
   return (
        <div className={`${width} glass-card flex justify-center m-auto items-center`}>
-        <div className="text-center [&>*:not(:first-child)]:text-2xl *:my-4 [&_*:last-child]:mt-4">
+        <div className="text-center *:my-4 [&_*:last-child]:mt-4">
             <h1 className="text-4xl font-(--font-weight)">{overskrift}</h1>
             <img className='m-auto' src={img}/>
-            <p className="m-auto w-4/5">{tekst}</p>
+            <p className={`m-auto w-4/5 ${textSize}`}>{tekst}</p>
             < Button knapTekst="Læs mere"/>
             <p>{pris}</p>
         </div>

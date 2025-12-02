@@ -17,6 +17,9 @@
   /* Card-størrelser */
   --primary-w: 100%;
   --primary-h: ;
+
+  /* Content størrelse */
+  --content-size: 75%;
 }
 
 @layer utilities {
