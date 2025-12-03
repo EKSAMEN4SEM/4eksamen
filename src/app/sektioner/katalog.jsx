@@ -1,9 +1,9 @@
-import { getData } from "@/src/lib/fetching";
+import { getDataProdukter } from "@/src/lib/fetching";
 import Glasscard from "../components/glasscard";
 
 export default async function Katalog() {
 
-    const produktData = await getData();
+    const produktData = await getDataProdukter();
 
   return (
     <>
