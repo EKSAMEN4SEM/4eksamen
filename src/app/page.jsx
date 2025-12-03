@@ -10,8 +10,8 @@ export default async function Home() {
   <>
   <Navbar />
   <Branchecard />
-  <ProjektCard />
   <Katalog />
+  <ProjektCard />
 {/*     <LearningThree /> */}
     <div>
       <h1></h1>

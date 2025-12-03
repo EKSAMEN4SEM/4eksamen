@@ -6,16 +6,23 @@ export default async function Projekt () {
     const projektData = await getDataArtikler();
 
     return (
-     <section className="bg-[url(/jordfarvet-bg.png)] w-full h-fit flex items-center py-(--content-padding)">
-        {projektData.map((item) => (
-          <Glasscard
-            key={item.id}
-            overskrift={item.projekt}
-            img={item.img}
-            tekst={item.korttekst}
-          />
-        ))
-        }
+        <section className="grid grid-cols-3 justify-between gap-8 w-(--content-size) py-(--content-padding) m-auto">
+            {projektData.map((item) => (
+            <Glasscard
+                width="full"
+                object="object-cover"
+                titleSize="text-xl"
+                imgWidth="w-full"
+                imgHeight="h-[180px]"
+                margin="my-4"
+
+                key={item.id}
+                overskrift={item.projekt}
+                img={item.img}
+                tekst={item.korttekst}
+            />
+            ))
+            }
         </section>
-    )
+        )
 }
