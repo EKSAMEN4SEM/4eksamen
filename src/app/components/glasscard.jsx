@@ -25,7 +25,7 @@ export default function Glass({
         )}
 
         {img && (
-          <img className={`m-auto ${imgWidth} ${imgHeight} ${object}`} src={img} />
+          <img className={`m-auto rounded-md ${imgWidth} ${imgHeight} ${object}`} src={img} />
         )}
 
         {tekst && (
