@@ -15,6 +15,7 @@
   --font-weight: 800;
 
   /* Content størrelse */
+  --sektions-overskrift: 3rem;
   --content-size: 75%;
   --content-padding: 5rem;
 }

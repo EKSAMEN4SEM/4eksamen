@@ -14,6 +14,9 @@ export default function Cementsektion () {
             py-(--content-padding)
             ">
             <div className="relative z-2">
+                <div className='w-full flex '>
+                    <h1 className='m-auto text-4xl font-(--font-weight)'>Hvad kan vi tilbyde</h1>
+                </div>
                 <Cementliste />
                 <div className='mt-12'>
                     < Button knapTekst="Læs Mere"/>
