@@ -3,7 +3,8 @@ import Navbar from './components/navbar'
 import Katalog from './sektioner/katalog'
 import Branchecard from './components/byggebranchecard'
 import ProjektCard from './components/projektcards'
-import Cementsektion from './sektioner/cement'
+import Cementsektion from './sektioner/cementliste'
+import Cementtal from './sektioner/cementtal'
 
 export default async function Home() {
 
@@ -14,6 +15,7 @@ export default async function Home() {
   < Cementsektion />
   <Katalog />
   <ProjektCard />
+  < Cementtal />
 {/*     <LearningThree /> */}
     <div>
       <h1></h1>
