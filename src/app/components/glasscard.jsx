@@ -12,13 +12,12 @@ export default function Glass({
   object = "object-cover",
   textSize = "text-xl",
   titleSize = "text-4xl",
-  margin = "my-4",
   textWidth = "w-4/5",
   cardTekstSize = "text-lg"
 }) {
   return (
     <div className={`${width} glass-card flex flex-col ${height} m-auto`}>
-      <div className={`text-center flex flex-col h-full justify-between *:${margin} [&_*:last-child]:mt-4`}>
+      <div className={`text-center flex flex-col h-full justify-between *:my-4 [&_*:last-child]:mt-4`}>
 
         {overskrift && (
           <h1 className={`${titleSize} font-(--font-weight)`}>
