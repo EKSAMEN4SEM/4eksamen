@@ -3,7 +3,7 @@ import { getDataAlleArtikler } from "@/src/lib/fetching";
 import Sektionsoverskrift from "../components/sektionsoverskrift";
 import Link from "next/link";
 
-export default async function Projekt ( ) {
+export default async function Projekt () {
 
     const projekterData = await getDataAlleArtikler();
 
