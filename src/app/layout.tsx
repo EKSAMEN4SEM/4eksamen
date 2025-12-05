@@ -22,8 +22,10 @@ export default function RootLayout({
       lang="en"
       className={darkergrotesque.className}
     >
-      <body>{children}</body>
-      <Footer />
+      <body>
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
