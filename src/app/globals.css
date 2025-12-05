@@ -10,21 +10,16 @@
   --primary-hover: #000000;
 
   /* Tekst */
-  --h1: 1rem;
-  --font-size: 4px;
+  --standard-text: 1.25rem;
   --font-weight: 800;
-
-  /* Card-størrelser */
-  --primary-w: 100%;
-  --primary-h: ;
 
   /* Content størrelse */
   --content-size: 75%;
+  --content-padding: 5rem;
 }
 
 @layer utilities {
   .glass-card {
-    height: fit-content;
     padding: 1rem;
     background: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(5px);
