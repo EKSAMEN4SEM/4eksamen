@@ -3,20 +3,8 @@ import Image from "next/image"
 
 export default function Navbar() {
     return (
-        <section className="w-full h-fit border-gray-200 border-b">
-            <div className="
-                flex items-center px-8 py-4 justify-between max-w-[1200px]
-
-                /* padding til alle børn undtagen det første */
-                [&>*:not(:first-child)]:px-4
-                [&>*:not(:first-child)]:py-1
-                [&>*:not(:first-child)]:text-2xl
-
-                /* Hover-styles */
-                [&>*:not(:first-child):hover]:text-white
-                [&>*:not(:first-child):hover]:bg-black
-                [&>*:not(:first-child):hover]:rounded-md
-            ">
+        <section className="w-full h-fit grid grid-cols-[0.6fr_2fr_0.6fr] border-gray-200 border-b">
+            <div className="px-8 py-4">
                 <Link href="/">
                     <Image
                         src="/logo.png"
@@ -25,6 +13,19 @@ export default function Navbar() {
                         height={45}
                     />
                 </Link>
+
+            </div>
+            <div className="
+                flex items-center px-8 py-4 justify-between
+
+                *:px-4
+                *:py-1
+                text-2xl
+
+                *:hover:text-white
+                *:hover:bg-black
+                *:hover:rounded-md
+            ">
                 <Link href="/ansvar">Ansvar
                 </Link>
                 <Link href="/projekter">Projekter
@@ -38,6 +39,7 @@ export default function Navbar() {
                 <Link href="/kontakt">Kontakt
                 </Link>
             </div>
+            <div></div>
         </section>
     )
 }
