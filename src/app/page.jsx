@@ -4,7 +4,6 @@ import Branchecard from "./components/byggebranchecard";
 import ProjektCard from "./projekter/page";
 import Cementsektion from "./sektioner/cementliste";
 import Cementtal from "./sektioner/cementtal";
-import Karrusel from "./components/karrusel";
 
 export default async function Home() {
   return (
@@ -14,7 +13,6 @@ export default async function Home() {
       <Katalog />
       <ProjektCard />
       <Cementtal />
-      <Karrusel />
       {/*     <LearningThree /> */}
       <div>
         <h1></h1>
