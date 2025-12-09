@@ -12,9 +12,8 @@ export default function KontaktForm() {
   } = useForm();
 
   const onSubmit = async (data) => {
-    // Her kan du sende til API / email-service osv.
     console.log(data);
-    reset(); // hvis du vil tømme formen efter submit
+    reset(); // tømmer formularen efter indsendelse
   };
 
   return (
