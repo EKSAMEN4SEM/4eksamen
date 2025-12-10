@@ -1,5 +1,6 @@
 import { getDataProdukt } from "@/src/lib/fetching";
 import Button from '../../components/button'
+import Link from 'next/link'
 
 export default async function SingleProdukt(props) {
     const params = await props.params;
@@ -27,7 +28,9 @@ export default async function SingleProdukt(props) {
             </div>
                 <div className="glass-card flex flex-col m-auto items-center mt-10 w-(--content-size)">
                         <h1 className="text-4xl font-(--font-weight) mb-8">For yderligere henvendelser eller interesse om ARC RACK, kontakt os her:</h1>
-                        < Button knapTekst="Kontakt os"/>
+                        < Link href="/kontakt">
+                            < Button knapTekst="Kontakt os"/>
+                        </Link>
                 </div>
         </section>
     )
