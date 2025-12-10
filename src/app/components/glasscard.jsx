@@ -6,21 +6,21 @@ export default function Glass({
   img,
   imgWidth = "full",
   imgHeight = "full",
-  width = "w-3/5",
+  width = "w-full",
   height = "h-full",
   object = "object-cover",
   textSize = "text-xl",
-  titleSize = "text-4xl",
+  titleSize = "sm:text-4xl",
   textWidth = "w-4/5",
-  cardTekstSize = "text-lg",
+  cardTekstSize = "sm:text-lg",
   textOnButton = "Læs Mere"
 }) {
   return (
     <div className={`${width} glass-card flex flex-col ${height} m-auto`}>
-      <div className={`text-center flex flex-col h-full justify-between *:my-4 [&_*:last-child]:mt-4`}>
+      <div className={`text-center flex flex-col h-full justify-between *:my-1 md:*:my-4 [&_*:last-child]:mt-4`}>
 
         {overskrift && (
-          <h1 className={`${titleSize} font-(--font-weight)`}>
+          <h1 className={`${titleSize} font-(--font-weight) `}>
             {overskrift}
           </h1>
         )}
@@ -30,7 +30,7 @@ export default function Glass({
         )}
 
         {tekst && (
-          <p className={`m-auto font-medium ${cardTekstSize} ${textWidth} ${textSize}`}>{tekst}</p>
+          <p className={`m-auto font-medium text-xs ${cardTekstSize} ${textWidth} ${textSize}`}>{tekst}</p>
         )}
 
         {textOnButton && <Button knapTekst={textOnButton}/>}

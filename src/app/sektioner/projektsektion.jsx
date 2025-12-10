@@ -7,7 +7,7 @@ export default async function Projektsektion() {
   const projekterData = await getDataAlleArtikler();
 
   return (
-      <div className="grid grid-cols-3 justify-between gap-8">
+      <div className="grid lg:grid-cols-3 justify-between gap-8">
         {projekterData.map((item) => (
           <Link
             key={item.id}
