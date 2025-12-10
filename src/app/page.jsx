@@ -1,10 +1,10 @@
 import LearningThree from "./threejs/LearningThree";
 import Katalog from "./katalog/page";
 import Branchecard from "./components/byggebranchecard";
-import ProjektCard from "./projekter/page";
 import Cementsektion from "./sektioner/cementliste";
 import Cementtal from "./sektioner/cementtal";
 import Herosection from "./sektioner/herosection";
+import Projektsektion from "./sektioner/projektsektion";
 
 export default async function Home() {
   return (
@@ -16,7 +16,7 @@ export default async function Home() {
       <Branchecard />
       <Cementsektion />
       <Katalog />
-      <ProjektCard />
+      <Projektsektion />
       <Cementtal />
       {/*     <LearningThree /> */}
       <div>
