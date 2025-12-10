@@ -18,8 +18,8 @@ export default function KontaktSektion() {
       <div className="relative z-10 max-w-6xl mx-auto px-4 md:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {/* Venstre side. */}
-          <div className="flex flex-col gap-6">
-            <h2 className="text-5xl font-semibold">Kontakt os her:</h2>
+          <div className="flex flex-col gap-6 [&_p]:font-medium">
+            <h2 className="text-5xl font-bold">Kontakt os her:</h2>
             <p className="text-xl leading-relaxed max-w-sm">
               Er du interesseret i et af vores projekter, ønsker du at udsmykke
               en plads eller skolegård, eller gerne vil være vores nye partner i
@@ -28,7 +28,7 @@ export default function KontaktSektion() {
             </p>
 
             <div className="space-y-4 text-lg">
-              <div className="flex items-start gap-3">
+              <div className="flex items-start gap-3 ">
                 <CiLocationOn size={24} />
                 <p>Lyongade 32, 3.th København S, 2300</p>
               </div>
