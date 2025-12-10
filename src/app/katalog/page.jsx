@@ -1,5 +1,6 @@
 import Herosection from "../sektioner/herosection";
-import Katalogsektion from "../sektioner/katalogsektion";
+import Katalogcard from '../components/katalogcard';
+import Sektionsoverskrift from "../components/sektionsoverskrift";
 
 export default async function Katalog() {
   return (
@@ -8,7 +9,7 @@ export default async function Katalog() {
         bgUrl="/katalog_hero.png"
         height="h-[60vh]"
       />
-      <Katalogsektion />
+        <Katalogcard />
     </>
   );
 }

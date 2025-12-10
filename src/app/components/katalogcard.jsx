@@ -1,6 +1,5 @@
 import { getDataAlleProdukter } from "@/src/lib/fetching";
 import Glasscard from "../components/glasscard";
-import Sektionsoverskrift from "../components/sektionsoverskrift";
 import Link from "next/link";
 
 export default async function Katalogsektion() {
@@ -8,7 +7,6 @@ export default async function Katalogsektion() {
 
   return (
     <section className="bg-[url(/jordfarvet-bg.png)] bg-cover bg-center w-full h-fit items-center py-(--content-padding)">
-        < Sektionsoverskrift titel="Katalog"/>
       {produkterData.map((p) => (
         <Link
           key={p.id}
