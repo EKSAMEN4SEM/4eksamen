@@ -31,8 +31,12 @@ export default function Ansvar() {
       <section className="py-(--content-padding) w-(--content-size) m-auto">
         <Sektionsoverskrift titel="Dokumentation af vores ansvarlighed" />
         <div className="flex gap-8">
-          <Glasscard tekst="Som en del af vores arbejdsproces dokumenterer vi materialernes rejse og samarbejder med partnere, der deler vores fokus på bæredygtighed. Recycon står for produktionen af de genanvendte materialer og for selve støbeprocessen af Arc Racken. Her kan du åbne Recycons ESG-rapport, som beskriver deres arbejde med cirkularitet og ansvarlig materialehåndtering." />
-          <Glasscard />
+          <Glasscard 
+          textOnButton="Download PDF"
+          tekst="Som en del af vores arbejdsproces dokumenterer vi materialernes rejse og samarbejder med partnere, der deler vores fokus på bæredygtighed. Recycon står for produktionen af de genanvendte materialer og for selve støbeprocessen af Arc Racken. Her kan du åbne Recycons ESG-rapport, som beskriver deres arbejde med cirkularitet og ansvarlig materialehåndtering." />
+          <Glasscard 
+          textOnButton="Download PDF"
+          />
         </div>
       </section>
       <Verdensmaal />

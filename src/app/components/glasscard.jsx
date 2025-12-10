@@ -3,7 +3,6 @@ import Button from './button'
 export default function Glass({
   overskrift,
   tekst,
-  pris,
   img,
   imgWidth = "full",
   imgHeight = "full",
@@ -14,7 +13,7 @@ export default function Glass({
   titleSize = "text-4xl",
   textWidth = "w-4/5",
   cardTekstSize = "text-lg",
-  textOnButton = "Læs mere"
+  textOnButton = "Læs Mere"
 }) {
   return (
     <div className={`${width} glass-card flex flex-col ${height} m-auto`}>
@@ -34,8 +33,7 @@ export default function Glass({
           <p className={`m-auto font-medium ${cardTekstSize} ${textWidth} ${textSize}`}>{tekst}</p>
         )}
 
-        {overskrift && <Button knapTekst={textOnButton}/>}
-        {pris && <p>{pris}</p>}
+        {textOnButton && <Button knapTekst={textOnButton}/>}
       </div>
     </div>
   );
