@@ -3,6 +3,7 @@ import Sektionsoverskrift from "../components/sektionsoverskrift";
 import Verdensmaal from "../components/verdensmaal";
 import CircularTimeline from "../components/timeline";
 import Cementliste from "../components/cementliste";
+import Herosection from "../sektioner/herosection";
 
 export default function Ansvar() {
   const tekst1 = (
@@ -28,6 +29,10 @@ export default function Ansvar() {
 
   return (
     <>
+      <Herosection
+        bgUrl="/ansvar_hero.png"
+        height="h-[60vh]"
+      />
       <section className="py-(--content-padding) w-(--content-size) m-auto">
         <Sektionsoverskrift titel="Dokumentation af vores ansvarlighed" />
         <div className="grid grid-cols-2 gap-8">
