@@ -8,7 +8,9 @@ export default function Projekt() {
         bgUrl="/projekter_hero.png"
         height="h-[60vh]"
       />
-      <Projektsektion />
+      <div className="w-(--content-size) py-(--content-padding) m-auto">
+        <Projektsektion />
+      </div>
     </>
   );
 }
