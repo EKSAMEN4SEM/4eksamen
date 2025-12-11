@@ -7,7 +7,7 @@ export default async function Projektsektion() {
   const projekterData = await getDataAlleArtikler();
 
   return (
-      <div className="grid grid-cols-3 justify-between gap-8">
+      <div className="grid lg:grid-cols-3 justify-between gap-8">
         {projekterData.map((item) => (
           <Link
             key={item.id}
@@ -16,7 +16,7 @@ export default async function Projektsektion() {
             <Glasscard
               width="full"
               object="object-cover"
-              titleSize="text-xl"
+              titleSize="text-lg sm:text-xl"
               imgWidth="w-full"
               imgHeight="h-[180px]"
               margin="my-4"

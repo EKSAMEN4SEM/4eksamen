@@ -5,14 +5,14 @@ export default function Cementliste ({
     tekst2 = "Integrationen af bænke og cykelstativer i ét multifunktionelt møbel skaber et æstetisk og praktisk byrumselement.",
     tal3 = "3",
     tekst3 = "Ved at bruge upcyclet beton hjælper vi virksomheder med at styrke deres grønne profil og den cirkulære økonomi.",
-    gridCols = "grid-cols-[1fr_5fr]"
+    gridCols = "sm:grid-cols-[1fr_5fr]"
 }) {
 
   return (
-    <div className='grid grid-cols-[1fr_2fr] w-(--content-size) m-auto items-center'>
-      <img className="pr-8" src="./sektionslogo.png" alt="logo"/>
+    <div className='grid lg:grid-cols-[1fr_2fr] w-(--content-size) m-auto items-center'>
+      <img className="lg:p-8 w-[100px] sm:w-[150px] md:w-[200px] lg:w-[300px] m-auto" src="./sektionslogo.png" alt="logo"/>
 
-      <article className="grid grid-rows-3 h-full divide-y border-black border-l [&_div]:py-4 [&_div]:px-4 [&_p]:text-xl [&_p]:font-medium [&_h1]:text-8xl [&_h1]:text-center [&_h1]:font-(--font-weight)">
+      <article className="grid grid-rows-3 h-full divide-y border-black sm:border-l [&>div]:gap-4 sm:[&>div]:gap-4 [&_div]:py-4 [&_div]:px-4 sm:[&_p]:text-xl [&_p]:font-medium [&_h1]:text-4xl sm:[&_h1]:text-6xl md:[&_h1]:text-8xl [&_h1]:text-center [&_h1]:font-(--font-weight)">
 
         <div className={`grid ${gridCols} items-center justify-center`}>
           {tal1 && <h1>{tal1}</h1>}

@@ -7,6 +7,7 @@ export default async function Katalogsektion() {
 
   return (
     <section className="bg-[url(/jordfarvet-bg.png)] bg-cover bg-center w-full h-fit items-center py-(--content-padding)">
+        <div className="w-(--content-size) m-auto">
       {produkterData.map((p) => (
         <Link
           key={p.id}
@@ -17,9 +18,11 @@ export default async function Katalogsektion() {
             overskrift={p.overskrift}
             img={p.hovedimg}
             tekst={p.korttekst}
+            width="lg:w-2/3"
           />
         </Link>
       ))}
+      </div>
     </section>
   );
 }
