@@ -6,19 +6,19 @@ export default async function SingleProjekt(props) {
     const data = projektData[0];
 
  return (
-    <section className="w-(--content-size) py-(--content-padding) m-auto [&>div]:p-18">
-        <div className="glass-card flex flex-col items-center">
+    <section className="w-(--content-size) py-(--content-padding) m-auto sm:[&>div]:p-10">
+        <div className="glass-card flex flex-col items-center md:w-4/5 m-auto">
             <img
-                className="object-cover h-[500px] w-full rounded-lg"
+                className="object-cover xl:h-[500px] w-full rounded-lg"
                 src={data.img}
                 alt="Sektions billede"
             />
-            <h1 className="text-6xl text-center font-(--font-weight) mt-12">
+            <h1 className="text-xl md:text-3xl lg:text-5xl text-center font-(--font-weight) mt-4 md:mt-12">
                 {data.overskrift}
             </h1>
-            <div className="my-12">
+            <div className="my-8 lg:my-12">
             {data.broedtekst.map((afsnit, index) => (
-                <p key={index} className="text-lg mt-6 font-medium">
+                <p key={index} className="text-sm sm:text-lg font-medium">
                     {afsnit}
                 </p>
             ))}
