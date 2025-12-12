@@ -30,8 +30,9 @@ export default function Ansvar() {
   return (
     <>
       <Herosection
-        bgUrl="/ansvar_hero.webp"
-        height="h-[60vh]"
+        src=""
+        vh="sm:h-[60vh]"
+        overskrift="ANSVAR"
       />
       <section className="py-(--content-padding) w-(--content-size) m-auto">
         <Sektionsoverskrift titel="Dokumentation af vores ansvarlighed" />

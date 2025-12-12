@@ -6,8 +6,9 @@ export default function Omos() {
   return (
     <>
       <Herosection
-        bgUrl="/omos_hero.webp"
-        height="h-[60vh]"
+        src=""
+        vh="sm:h-[60vh]"
+        overskrift="OM OS"
       />
       <Maalsaetning />
       <Profilkort />

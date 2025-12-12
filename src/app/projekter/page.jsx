@@ -5,8 +5,9 @@ export default function Projekt() {
   return (
     <>
       <Herosection
-        bgUrl="/projekter_hero.webp"
-        height="h-[60vh]"
+        src=""
+        vh="sm:h-[60vh]"
+        overskrift="PROJEKTER"
       />
       <div className="w-(--content-size) py-(--content-padding) m-auto">
         <Projektsektion />

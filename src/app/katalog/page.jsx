@@ -6,8 +6,9 @@ export default async function Katalog() {
   return (
     <>
       <Herosection
-        bgUrl="/katalog_hero.webp"
-        height="h-[60vh]"
+        src=""
+        vh="sm:h-[60vh]"
+        overskrift="KATALOG"
       />
       <Katalogcard />
     </>
