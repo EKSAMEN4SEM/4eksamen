@@ -14,7 +14,7 @@ export default function Navbar() {
   const links = [
     { href: "/ansvar", label: "Ansvar" },
     { href: "/projekter", label: "Projekter" },
-    { href: "/katalog", label: "Katalog" },
+    { href: "/katalog", label: "Produkter" },
     { href: "/partner", label: "Partner" },
     { href: "/omos", label: "Om os" },
     { href: "/kontakt", label: "Kontakt" },
