@@ -8,7 +8,7 @@ export default async function Katalog() {
       <Herosection
         src=""
         vh="sm:h-[60vh]"
-        overskrift="KATALOG"
+        overskrift="PRODUKTER"
       />
       <Katalogcard />
     </>

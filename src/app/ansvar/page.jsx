@@ -36,7 +36,7 @@ export default function Ansvar() {
       />
       <section className="py-(--content-padding) w-(--content-size) m-auto">
         <Sektionsoverskrift titel="Dokumentation af vores ansvarlighed" />
-        <div className="grid md:flex gap-8">
+        <div className="grid lg:grid-cols-2 gap-8">
           <Glasscard
             width="w-full"
             pdfUrl="https://nwldyulnmyqrldjvcumo.supabase.co/storage/v1/object/public/PDF%20-%20Regnskab/Recycon-ESG-rapport-2024.pdf"
