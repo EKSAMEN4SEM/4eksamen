@@ -8,7 +8,7 @@ export default async function Katalogsektion() {
 
   return (
     <section className="bg-[url(/jordfarvet-bg.png)] bg-cover bg-center h-fit items-center py-(--content-padding)">
-        < Sektionsoverskrift titel="Katalog"/>
+        < Sektionsoverskrift titel="Produkter"/>
         <div className="w-(--content-size) m-auto">
       {produkterData.map((p) => (
         <Link
