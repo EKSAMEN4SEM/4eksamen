@@ -7,8 +7,8 @@ export default async function Katalogsektion() {
   const produkterData = await getDataAlleProdukter();
 
   return (
-    <section className="bg-[url(/jordfarvet-bg.png)] bg-cover bg-center h-fit items-center py-(--content-padding)">
-        < Sektionsoverskrift titel="Katalog"/>
+    <section className="bg-[url(/jordfarvet-bg.png)] bg-cover bg-center h-fit py-(--content-padding)">
+        < Sektionsoverskrift titel="Produkter"/>
         <div className="w-(--content-size) m-auto">
       {produkterData.map((p) => (
         <Link
