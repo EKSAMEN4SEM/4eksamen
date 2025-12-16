@@ -13,7 +13,10 @@ export default function KontaktForm() {
 
   const onSubmit = async (data) => {
     console.log(data);
-    reset(); // tømmer formularen efter indsendelse
+    reset(
+      { name: "", company: "", email: "", message: "" },
+      { keepIsSubmitSuccessful: true }
+    ); // tømmer formularen efter indsendelse
   };
 
   return (
@@ -73,7 +76,10 @@ export default function KontaktForm() {
       </div>
 
       <div className="flex flex-col gap-1">
-        <Button knapTekst={isSubmitting ? "Sender..." : "Send Besked"} />
+        <Button
+          type="submit"
+          knapTekst={isSubmitting ? "Sender..." : "Send Besked"}
+        />
         {isSubmitSuccessful && (
           <p className="text-xl text-green-600 mt-2">
             Tak for din besked! Vi vender tilbage hurtigst muligt.
