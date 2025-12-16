@@ -76,7 +76,10 @@ export default function KontaktForm() {
       </div>
 
       <div className="flex flex-col gap-1">
-        <Button knapTekst={isSubmitting ? "Sender..." : "Send Besked"} />
+        <Button
+          type="submit"
+          knapTekst={isSubmitting ? "Sender..." : "Send Besked"}
+        />
         {isSubmitSuccessful && (
           <p className="text-xl text-green-600 mt-2">
             Tak for din besked! Vi vender tilbage hurtigst muligt.
