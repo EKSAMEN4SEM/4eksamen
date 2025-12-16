@@ -1,4 +1,3 @@
-import LearningThree from "./threejs/LearningThree";
 import Katalogsektion from "./sektioner/katalogsektion";
 import Branchecard from "./components/byggebranchecard";
 import Cementsektion from "./sektioner/cementliste";
