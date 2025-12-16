@@ -25,7 +25,7 @@ export default function ProduktClient({ pData }) {
             ))}
           </div>
         </div>
-        <div className="text-center h-fit lg:text-left lg:col-start-2 lg:p-8 mt-8 lg:mt-0 md:mt-8 self-center">
+        <div className="text-left h-fit lg:text-left lg:col-start-2 lg:p-8 mt-8 lg:mt-0 md:mt-8 self-center">
           <h1 className="text-2xl lg:text-6xl font-(--font-weight) mb-4 flex justify-center">
             {pData.overskrift}
           </h1>

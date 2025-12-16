@@ -14,13 +14,14 @@ export default function Glass({
   textWidth = "w-4/5",
   cardTekstSize = "sm:text-lg",
   textOnButton = "Læs Mere",
-  gridRow = "grid-rows-[minmax(5.5rem,auto)_auto_minmax(10.8rem,auto)_auto]",
+  gridRow = "lg:grid-rows-[minmax(5.5rem,auto)_auto_minmax(10.8rem,auto)_auto] xl:lg:grid-rows-[minmax(5.5rem,auto)_auto_minmax(8.8rem,auto)_auto]",
+  lastChild = "[&_*:last-child]:mt-4 lg:[&_*:last-child]:mt-0",
   pdfUrl,
 }) {
   return (
     <div className={`${width} glass-card ${height} m-auto`}>
       <div
-        className={`text-center *:my-1 grid md:*:my-4 ${gridRow} [&_*:last-child]:mt-0`}
+        className={`text-center *:my-1 grid md:*:my-4 ${gridRow} ${lastChild}`}
       >
         {overskrift && (
           <h1 className={`${titleSize} font-(--font-weight) `}>{overskrift}</h1>

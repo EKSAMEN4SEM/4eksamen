@@ -13,7 +13,7 @@ export default async function SingleProjekt(props) {
                 src={data.img}
                 alt="Sektions billede"
             />
-            <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-5xl text-center font-(--font-weight) mt-4 md:mt-12">
+            <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-5xl text-left font-(--font-weight) mt-4 md:mt-12">
                 {data.overskrift}
             </h1>
             <div className="my-2 lg:my-12 [&>p:not(:last-child)]:mt-4">
