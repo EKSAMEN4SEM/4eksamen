@@ -6,7 +6,7 @@ export default function KontaktSektion() {
     <section
       className="
         relative
-        bg-[url('/cementsektion.jpg')]
+        bg-[url('/cementsektion.webp')]
         bg-cover bg-center
         py-(--content-padding)
       "

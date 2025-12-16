@@ -7,7 +7,7 @@ export default function Cementsektion () {
     return (
         <>
         <div className="
-            bg-[url('/cementsektion.jpg')]
+            bg-[url('/cementsektion.webp')]
             bg-cover bg-center relative 
             before:content-[''] 
             before:absolute 
