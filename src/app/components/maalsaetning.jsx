@@ -4,7 +4,7 @@ export default function maalsaetning () {
     return (
         <>
         <section className="
-                bg-[url('/cementsektion.jpg')]
+                bg-[url('/cementsektion.webp')]
                 bg-cover bg-center relative 
                 before:content-[''] 
                 before:absolute 
