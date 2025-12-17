@@ -33,7 +33,7 @@ export default function Glass({
             src={img}
             alt="img"
           />
-        )}
+        )} 
 
         {tekst && (
           <p
